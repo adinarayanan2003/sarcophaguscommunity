@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title> Games</title>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel = "icon" href = "sarcoimg1.webp" 
+        type = "image/x-icon" />
+  </head>
+  <body>
+    <div>
+        <audio loop autoplay>
+            <source src="sarcomusic.mp3">
+        </audio>
+  <img id="ape_img" src="sarcoimg2.gif" >
+  <script type="text/javascript">
+      var colour=["#000000","rgb(9, 8, 94)"];
+      var i=0;
+      document.querySelector("img").addEventListener("click",function(){
+          i = i< colour.length ? ++i:0;
+          document.querySelector("body").style.background = colour[i];
+      
+      })
+  </script>
+  </div>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a class="navbar-brand" href="./index.html">
+                <div class="logo-image">
+                   
+                      <img src="sarcoimg1.webp" class="img-fluid" width="80px" height="60">
+                      
+                </div>
+                
+          </a>
+          
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="./index.html" class="navbar__links">Play</a>
+            </li>
+
+            <li class="navbar__item">
+              <a href="./learn.html" class="navbar__links">Learn</a>
+            </li>
+            <li class="navbar__item">
+                <a href="https://sarcophagus.io/" class="navbar__links" target="blank">Official website</a>
+              </li>
+            
+            <li class="navbar__btn"><a href="https://app.sarcophagus.io/#/tomb" class="button" target=”_blank”>Deploy Sarcophagi</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="box">
+        <div class="content">
+            <h1>COMING SOON!  </h1>
+           
+            <h2>Be ready ;)</h2>
+            
+            
+        </div>
+        
+    </div>
+    <div class="footer">
+
+    </div>
+    <img id="house" src="sarcoimg11.gif" >
+      
+    <div class="halloween">
+        <img src="sarcoimg7.png">
+        <img src="sarcoimg8.png">
+        <img src="sarcoimg9.png">
+        <img src="sarcoimg7.png">
+        <img src="sarcoimg8.png">
+        <img src="sarcoimg9.png">
+        <img src="sarcoimg8.png">
+        <img src="sarcoimg9.png">
+        <img src="sarcoimg7.png">
+        <img src="sarcoimg8.png">
+        <img src="sarcoimg9.png">
+        <img src="sarcoimg7.png">
+    </div>
+    
+  </body>
+</html>
